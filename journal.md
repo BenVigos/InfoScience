@@ -78,5 +78,5 @@ def mouseClicked():
     
     px=x
     py=y
-    ```
+    
     
