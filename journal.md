@@ -8,7 +8,7 @@ What I learned:
 I learned the processing specific commands like delay(),mouseX and others, learned how to print text and colour the canvas
 
 Questions I have:
-none 
+can't figure out how to do 2nd assignment
 
 Homework for next class:
 1. Add lines from center of screen to center of circle
