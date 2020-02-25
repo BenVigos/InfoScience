@@ -1,148 +1,83 @@
 # This is my journal
 
-3d class
+4th class
 
 What did we do?
-We made a fair dice, then an unfair one where one of the numbers shows up more. We changed the dice's and circle's thickness and colour
+Made a checker board and made it move therefore creating an optical illusion
 
 What I learned:
-How to use the rectangle command and how to change the thickness and the colour of the lines
+Got a better understanding of how to use the for command
 
 Questions I have:
 No
 
 
 Homework for next class:
-make a program that counts how many times each number has been rolled
-
-(I made the ratio 1/10, so for each roll the size of the appropriate bar increases by 1/10)
+Make an optical Illusion
 
 ```
-r1=0
-r2=0
-r3=0
-r4=0
-r5=0
-r6=0
-total=0
+offset=295
 def setup():
-    size(600,600)
+    size(1000,500)
     background(255)
+    textAlign(CENTER,CENTER)
+    
+def purple():
+    stroke(136, 136, 165)
+    fill(136, 136, 165)
 
+def orange():
+    stroke(224, 130, 0)
+    fill(224, 130, 0)
     
-
-
-def tr():
-    circle(200,200,50)
+def mouseClicked():
+    global offset 
+    offset=offset+15
     
-def mr():
-    circle(200,300,50)
+    if offset>900:
+        offset=295
     
-def br():
-    circle(200,400,50)
     
-def mm():
-    circle(300,300,50)
-    
-def tl():
-    circle(400,200,50)
-    
-def ml():
-    circle(400,300,50)
-    
-def bl():
-    circle(400,400,50)
-    
-def one():
-    mm()
-    
-def two():
-    tl()
-    br()
-    
-def three():
-    tl()
-    mm()
-    br()
-    
-def four():
-    tl()
-    bl()
-    tr()
-    br()
-    
-def five():
-    tl()
-    bl()
-    mm()
-    tr()
-    br()
-    
-def six():
-    tl()
-    ml()
-    bl()
-    tr()
-    mr()
-    br()
-
 def draw():
-    global r1,r2,r3,r4,r5,r6,total
+    global offset
     
     background(255)
     
-    fill(255,255,255)
-    n=random(0,6)
+    fill(0)
+    stroke(0)
+    circle(900,250,70)
     
-    strokeWeight(5)
-    stroke(0,0,0)
-    rect(100,100,400,400,20)
-    strokeWeight(10)
-    stroke(255,0,0)
+    textSize(30)
+    text("Click mouse to move",500,50)
     
-    if 0<=n<1:
-        one()
-        r1=r1+1
-        
-    if 1<=n<2:
-        two()
-        r2=r2+1
-    if 2<=n<3:
-        three()
-        r3=r3+1
-    if 3<=n<4:
-        four()
-        r4=r4+1
-    if 4<=n<5:
-        five()
-        r5=r5+1
-    if 5<=n<6:
-        six()
-        r6=r6+1
-        
-    fill(0,0,0)
-    textSize(20)   
-     
-    text("1",30,590)
-    rect(30,565,10,-r1/10)
+    fill(255)
+    textSize(10)
+    text("Here to reset",900,250)
     
-    text("2",100,590)
-    rect(100,565,10,-r2/10)
+    purple()
+    circle(250,170,80)
+    circle(210,250,80)
+    circle(250,330,80)
     
-    text("3",170,590)
-    rect(170,565,10,-r3/10)
+    circle(340,170,80)
+    circle(380,250,80)
+    circle(340,330,80)
+
+    orange()
+    circle(offset,250,50)
     
-    text("4",240,590)
-    rect(240,565,10,-r4/10)
+    purple()
+    circle(670,285,30)
+    circle(655,250,30)
+    circle(670,215,30)
     
-    text("5",310,590)
-    rect(310,565,10,-r5/10)
+    circle(705,300,30)
+    circle(705,200,30)
     
-    text("6",380,590)
-    rect(380,565,10,-r6/10)
-    
-    text("total",450,590)
-    text(total,500,590)
-    
-    total=total+1  
+    circle(740,285,30)
+    circle(755,250,30)
+    circle(740,215,30)
+
+    orange()
+    circle(705,250,50)
     ```
