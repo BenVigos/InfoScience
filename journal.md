@@ -1,9 +1,9 @@
 # This is my journal
 
-5th class
+Week 28
 
 What we did:
- We got started with Autodesk Thinkercad and made a simple circuit with flashing lights of different colours. i then begun trying to make it work with a push button
+ Read the article "How your personal computer can help science battle the coronavirus while you sleep"
 
 What I learned:
  I found out about Tincercad and how to use it. And I alsolearned the basics of Arduino and how to connect things to it and to the breadboard.
