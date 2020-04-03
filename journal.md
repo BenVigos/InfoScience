@@ -5,6 +5,8 @@ Week 28
 What we did:
 1. Read the article "How your personal computer can help science battle the coronavirus while you sleep"
 
+2. Watched introductory video.
+
 What I learned:
  I learned about protein simulations and how they can help find a cure to covid-19. I also learned about how protein simulations helped find a therapeutic utility for Ebola.
  
