@@ -48,7 +48,7 @@ def draw():
   
     fill(0)
       
-    #first person
+    #creating the people
     for i in range(10):
         circle(posx[i],posy[i],10)
         
