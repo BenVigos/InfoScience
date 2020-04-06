@@ -19,7 +19,7 @@ I suppose that we would need to create two lists? One for the healthy and one fo
 Homework for next class:
  The for loop tasks 1. 2. and 3. will be submited as photographs
  
- 1. 2. 3.
+ 1., 2., 3.
 ```
 posx=[] #this is a list
 posy=[]
