@@ -12,8 +12,7 @@ What I learned:
  
 Questions I have:
  Yes:
-How can we check the distance between a circle and every other circle?
-I suppose that we would need to create two lists? One for the healthy and one for the infected?
+Could I maybe have some extra resources to advance faster?
 
  
 Homework for next class:
