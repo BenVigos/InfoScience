@@ -18,7 +18,7 @@ Could I maybe have some extra resources to advance faster?
 Homework for next class:
  The for loop tasks 1. 2. and 3. will be submited as photographs
  
- 1., 2., 3.
+ 1., 2.
 ```
 posx=[] #this is a list
 posy=[]
@@ -122,3 +122,7 @@ def draw():
     
     delay(100)
 ```
+3., 4. As a photo
+
+5. As a photo
+
