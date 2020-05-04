@@ -12,4 +12,4 @@ Questions I have:
  No
 
 Homework for next class:
-Sent in email
+ Sent in email
